@@ -32,17 +32,3 @@ Write SQL queries to perform the following operations:
 3. Find the author who wrote the most books.
 4. Update the email of a customer.
 
-Please refer to the following sections for the SQL queries corresponding to each operation.
-
-#### 1. Insert new authors and books into the database
-
-To insert new authors and books into the database, use the following SQL query:
-
-```sql
--- Insert new author
-INSERT INTO Authors (ID, Name)
-VALUES (<author_id>, '<author_name>');
-
--- Insert new book
-INSERT INTO Books (ID, Title, Publication_Year, Author_ID)
-VALUES (<book_id>, '<book_title>', <publication_year>, <author_id>);
